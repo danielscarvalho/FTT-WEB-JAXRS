@@ -221,6 +221,7 @@ public class EtcApi {
 
      } //getSvg
 
+    //TODO: JSON - Gson lib
     //TODO: X3D
     //TODO: PNG
     //TODO: PDF
