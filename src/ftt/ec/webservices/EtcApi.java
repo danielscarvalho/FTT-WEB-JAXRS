@@ -206,7 +206,7 @@ public class EtcApi {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/txt/{quanity}")
-    public String getIt(@PathParam("quantity") int qtd) {
+    public String getText(@PathParam("quantity") int qtd) {
     	
     	String text = "Lorem ipsum vestibulum conubia commodo cras diam suscipit magna, quisque hendrerit ac suspendisse dictum faucibus tellus orci quis, maecenas ullamcorper lacinia convallis etiam curabitur commodo. morbi odio eget nec felis vestibulum non metus felis vulputate urna, fermentum netus aliquet elementum orci urna velit quis amet, accumsan sociosqu condimentum blandit mauris adipiscing curabitur mauris pharetra. ipsum fermentum dictum ac pharetra et potenti netus ipsum, class netus nibh elementum lobortis blandit faucibus, eget molestie amet litora dui donec luctus. litora tellus pellentesque placerat molestie eros himenaeos odio etiam urna etiam venenatis sapien, suscipit mi duis nisi lacinia volutpat aliquet luctus primis praesent.\n";
         String outText = "";
@@ -215,7 +215,7 @@ public class EtcApi {
     		outText += text;
     	
         return outText;
-    }
+    } //getText
     
     @GET
     @Produces(MediaType.APPLICATION_SVG_XML)
